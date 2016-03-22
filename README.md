@@ -68,3 +68,17 @@ Or possibly:
 ```bash
 $ sudo pip install nose
 ```
+
+If you don't have pip:
+
+```bash
+$ easy_install pip
+```
+
+Or
+
+```bash
+$ sudo easy_install pip
+```
+
+Then go forth and install nose as mentioned above.
