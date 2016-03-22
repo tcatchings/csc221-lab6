@@ -3,7 +3,13 @@
 # the string are the same.
 # 
 def match_ends(words):
-    return
+    def match_ends(words):
+    count = 0
+    for str in words:
+        if len(str) > 2 or len(str) is 2:
+            if str[0] == str[-1]:
+                count = count + 1
+    return count
 
 
 # Given a list of strings, return a list with the strings in sorted
@@ -15,7 +21,15 @@ def match_ends(words):
 # before combining them.
 # 
 def front_x(words):
-    return
+    xwords = []
+    newlist = []
+
+    for s in words:
+        if ('x' in s):
+            words.remove(s)
+            xwords.insert(0, s)
+            newlist = xwords + words
+    return newlist
 
 
 # Given a list of non-empty tuples, return a list sorted in increasing
